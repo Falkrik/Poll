@@ -1,0 +1,96 @@
+#content {
+	text-align: center;
+}
+
+#question {
+	display: inline-block;
+
+	margin-top: 10vh;
+	font-size: 8vw;
+	font-family: 'Rubik', sans-serif;
+}
+
+#buttonList {
+	border: 1px solid #000;
+
+	display: inline-block;
+
+	width: 80vw;
+	height: 8vw;
+
+	margin-top: 2vh;
+}
+
+.choice {
+	width: 8vw;
+	height: 8vw;
+
+	font-family: 'Rubik', sans-serif;
+	font-size: 6vw;
+
+	text-align: center;
+	line-height: 8vw;
+
+	float: left;
+	cursor: pointer;
+}
+
+#send {
+	border: 1px solid #000;
+	width: 40vw;
+	height: 8vw;
+
+	background-color: #DB2;
+	font-size: 4vw;
+	line-height: 8vw;
+	font-family: 'Rubik', sans-serif;
+	cursor: pointer;
+
+	margin-top: 4vh;
+	display: inline-block;
+}
+
+.active {
+	padding-top: 2vh;
+}
+
+
+#R1 {
+	background-color: #ff3300;
+}
+
+#R2 {
+	background-color: #ff6600;
+}
+
+#R3 {
+	background-color: #fe9900;
+}
+
+#R4 {
+	background-color: #ffcc00;
+}
+
+#R5 {
+	background-color: #ffff00;
+}
+
+#R6 {
+	background-color: #ccff00;
+}
+
+#R7 {
+	background-color: #99fe00;
+}
+
+#R8 {
+	background-color: #65ff00;
+}
+
+#R9 {
+	background-color: #33ff00;
+}
+
+#R10 {
+	background-color: #00ff01;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>MÖNSTERÅS LUNCH REVIEW</title>
+	<link rel="stylesheet" type="text/css" href="foodcss.css">
+
+	<script src="_jquery-3.4.1.min"></script>
+	<script src="reviewJS.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+	<!-- <link rel="icon" href="../img/bioIconFilled.png"> -->
+</head>
+<body>
+	<div id="content">
+		<div id="question">VAD TYCKTE DU OM MATEN IDAG?</div>
+		
+		<div id="buttonList">
+			<div id="R1" class="choice" onclick="choose(1)">1</div>
+			<div id="R2" class="choice" onclick="choose(2)">2</div>
+			<div id="R3" class="choice" onclick="choose(3)">3</div>
+			<div id="R4" class="choice" onclick="choose(4)">4</div>
+			<div id="R5" class="choice" onclick="choose(5)">5</div>
+			<div id="R6" class="choice" onclick="choose(6)">6</div>
+			<div id="R7" class="choice" onclick="choose(7)">7</div>
+			<div id="R8" class="choice" onclick="choose(8)">8</div>
+			<div id="R9" class="choice" onclick="choose(9)">9</div>
+			<div id="R10" class="choice" onclick="choose(10)">10</div>
+		</div>
+
+		<div id="send" onclick="send()">SKICKA REVIEW</div>
+		<div id="send" onclick="getSummary()">[PH] SUMMARY</div>
+	</div>
+</body>
+</html>
